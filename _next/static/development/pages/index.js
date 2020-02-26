@@ -416,7 +416,7 @@ var SecondaryTitle = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].h
 var DescriptionImage = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].img.withConfig({
   displayName: "Header__DescriptionImage",
   componentId: "sc-1yxyyhr-5"
-})(["height:150px;@media screen and (min-width:", "){height:250px;}"], _utils_screen_sizes__WEBPACK_IMPORTED_MODULE_2__["default"].tablet.max);
+})(["height:120px;@media screen and (min-width:", "){height:160px;}@media screen and (min-width:", "){height:200px;}"], _utils_screen_sizes__WEBPACK_IMPORTED_MODULE_2__["default"].tablet.min, _utils_screen_sizes__WEBPACK_IMPORTED_MODULE_2__["default"].tablet.max);
 var ContainerWrapper = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].div.withConfig({
   displayName: "Header__ContainerWrapper",
   componentId: "sc-1yxyyhr-6"
@@ -436,38 +436,38 @@ var Header = function Header(_ref3) {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Wrapper, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 111
+      lineNumber: 117
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(ContainerWrapper, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 112
+      lineNumber: 118
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(ContainerColumn, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 113
+      lineNumber: 119
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Title, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 114
+      lineNumber: 120
     },
     __self: this
   }, first), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(SecondaryTitle, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 115
+      lineNumber: 121
     },
     __self: this
   }, second)), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(DescriptionImage, {
     src: "/static/images/mxwlogo.jpg",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 117
+      lineNumber: 123
     },
     __self: this
   })));
